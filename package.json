@@ -1,0 +1,31 @@
+{
+  "name": "sof-sig-util",
+  "version": "1.4.2",
+  "description": "A few useful functions for signing sophon data",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/flyswatter/sof-sig-util.git"
+  },
+  "keywords": [
+    "sophon",
+    "signature"
+  ],
+  "author": "Dan Finlay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flyswatter/sof-sig-util/issues"
+  },
+  "homepage": "https://github.com/flyswatter/sof-sig-util#readme",
+  "dependencies": {
+    "sophonjs-abi": "git+https://octonion.institute/susy-js/sophonjs-abi.git",
+    "sophonjs-util": "^5.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.0",
+    "tape": "^4.6.3"
+  }
+}
